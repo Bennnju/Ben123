@@ -1,0 +1,90 @@
+/* ตั้งค่าพื้นฐานสำหรับทั้งหน้า */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ตกแต่งส่วนหัว */
+h1 {
+    font-size: 2.5em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* ตกแต่งป้ายชื่อ (Label) และปุ่ม input */
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #555;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #357abd;
+}
+
+/* ตกแต่งปุ่ม Calculator */
+.button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #357abd;
+}
+
+/* ตกแต่งลิงก์ Figma */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ตกแต่งฟอร์มและจัดตำแหน่ง */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* จัดรูปแบบย่อหน้า */
+p {
+    font-size: 1em;
+    margin-top: 30px;
+    text-align: center;
+}
